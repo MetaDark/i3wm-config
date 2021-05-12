@@ -1,0 +1,13 @@
+[remote "gitlab"]
+	url = https://gitlab.com/MetaDark/i3wm-config.git
+	fetch = +refs/heads/*:refs/remotes/gitlab/*
+[remote "github"]
+	url = https://github.com/MetaDark/i3wm-config.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "all"]
+	url = https://gitlab.com/MetaDark/i3wm-config.git
+	fetch = +refs/heads/*:refs/remotes/all/*
+	pushurl = git@gitlab.com:MetaDark/i3wm-config.git
+	pushurl = git@github.com:MetaDark/i3wm-config.git
+[remote]
+	pushDefault = all
